@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  background: #1c1c1c;
+  color: #f5e8d8;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+body.light-theme {
+  background: #1c1c1c;
+  color: #f5e8d8;
+}
+
+body.dark-theme {
+  background: #121212;
+  color: #f8ede0;
+}
+
+ion-content {
+  --padding-start: 1rem;
+  --padding-end: 1rem;
+  --background: transparent;
+  --color: inherit;
+}
+
+ion-card {
+  border-radius: 18px;
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.35);
+  --background: #262626;
+  color: inherit;
+}
+
+body.dark-theme ion-card {
+  --background: #1f1f1f;
+  color: inherit;
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+ion-item {
+  --background: #2a2a2a;
+  --inner-padding-end: 0.75rem;
+  border-radius: 14px;
+  margin-bottom: 0.75rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  color: inherit;
+}
+
+body.dark-theme ion-item {
+  --background: #1f1f1f;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
+}
+
+ion-input,
+ion-select,
+ion-textarea {
+  --background: transparent;
+  --padding-top: 0.35rem;
+  --padding-bottom: 0.35rem;
+  --padding-start: 0;
+  --padding-end: 0;
+  color: inherit;
+}
+
+body.dark-theme ion-input,
+body.dark-theme ion-select,
+body.dark-theme ion-textarea {
+  color: inherit;
+}
+
+a {
+  color: #ff6f61;
+}
+
+a:hover {
+  color: #ff4500;
+}
+
+.app-card {
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  margin: 1rem 0 0.5rem;
+  font-weight: 600;
+  color: var(--ion-color-primary);
+}

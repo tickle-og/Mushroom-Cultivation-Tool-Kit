@@ -70,6 +70,80 @@ ion-modal.custom-modal {
   flex-direction: column;
 }
 
+.assistant-card {
+  margin-bottom: 1.5rem;
+}
+
+.route-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.assistant-section {
+  margin-top: 1.5rem;
+}
+
+.assistant-section__header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.assistant-section__header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.assistant-results {
+  margin-top: 0.75rem;
+}
+
+.assistant-plan h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.reminder-item {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.reminder-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.reminder-actions ion-input {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .assistant-section__header h3 {
+    font-size: 1.1rem;
+  }
+
+  .reminder-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .reminder-actions {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+
+  .reminder-actions ion-input {
+    max-width: 220px;
+  }
+}
+
 .tote-reference-row {
   display: flex;
   flex-wrap: wrap;

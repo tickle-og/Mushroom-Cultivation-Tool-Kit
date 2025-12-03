@@ -61,7 +61,7 @@ const ReferencePage: React.FC = () => {
   const guideDetail =
     selected?.type === 'guide' ? guides.find((guide) => guide.id === selected.id) : undefined
 
-  const modalOpen = !!(tekDetail || speciesDetail || recipeDetail || guideDetail)
+  const modalOpen = Boolean(tekDetail ?? speciesDetail ?? recipeDetail ?? guideDetail)
 
   const tekName = (id: string) => teks.find((t) => t.id === id)?.name ?? id
   const speciesName = (id: string) =>

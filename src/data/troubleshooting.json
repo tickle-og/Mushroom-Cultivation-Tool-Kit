@@ -1,0 +1,128 @@
+{
+  "source": "Growing Gourmet & Medicinal Mushrooms – Contamination & Troubleshooting Extract",
+  "version": "1.0",
+  "sections": {
+    "vectors_of_contamination": {
+      "overview": "Contamination arises through six primary vectors. Diagnosing the vector is the foundation of solving nearly all contamination issues.",
+      "vectors": [
+        {
+          "name": "cultivator",
+          "description": "Human body carries fungi, bacteria, viruses. Contaminants spread via breath, skin flakes, and touch.",
+          "prevention": [
+            "Do not work when ill.",
+            "Wash hands every 20–30 minutes with antibacterial soap.",
+            "Disinfect hands regularly with 80% isopropyl alcohol.",
+            "Wear gloves if preferred."
+          ]
+        },
+        {
+          "name": "air",
+          "description": "Air is a reservoir of suspended microorganisms. Personnel movement disturbs settled contaminants.",
+          "prevention": [
+            "Use ≥3 doorways before the sterile lab.",
+            "Positive-pressure air with micron filtration is ideal.",
+            "\"Still-air\" rooms use disinfectant mist to settle particulates.",
+            "Avoid mixing disinfectants (e.g., bleach + ammonia).",
+            "Ensure fresh-air exchange to avoid CO₂ buildup (promotes contaminant growth)."
+          ]
+        },
+        {
+          "name": "media",
+          "description": "Improperly prepared or sterilized substrates become vectors themselves.",
+          "prevention": [
+            "Leave uninoculated 'blank' controls for comparison.",
+            "Review sterilization cycles.",
+            "Evaluate water quality and storage."
+          ]
+        },
+        {
+          "name": "tools",
+          "description": "Unclean scalpels, jars, blades, and surfaces introduce contaminants.",
+          "prevention": [
+            "Sterilize tools between every use.",
+            "Keep instruments in disinfectant baths or flame-sterilize."
+          ]
+        },
+        {
+          "name": "inoculum",
+          "description": "Contaminated agar, liquid culture, or transfers propagate contamination into otherwise clean media.",
+          "prevention": [
+            "Examine inoculum microscopically when possible.",
+            "Use clean transfer technique inside sterile workflow."
+          ]
+        },
+        {
+          "name": "mobile_contamination_units",
+          "description": "Mites, flies, and other small organisms acting as carriers.",
+          "prevention": [
+            "Install bug lights near entrances.",
+            "Maintain cleanliness and air barriers.",
+            "Control humidity to reduce mold attractiveness."
+          ]
+        }
+      ]
+    },
+
+    "diagnostic_principles": {
+      "blank_controls": "Always leave at least one jar, plate, or bag uninoculated each batch. If blanks contaminate, the problem is media prep—not inoculation.",
+      "multi_symptom_problems": "One environmental error (e.g., high humidity) can produce multiple symptoms: bacterial blotch, green mold, mites feeding on mold, flies transporting mites, deformed fruiting bodies, and short shelf-life.",
+      "root_cause_focus": "Correct the underlying vector rather than the visible contaminant."
+    },
+
+    "common_problems": {
+      "high_humidity": {
+        "symptoms": [
+          "Bacterial blotch",
+          "Green mold proliferation",
+          "Mites feeding on molds",
+          "Flies carrying mites and mold spores",
+          "Deformed primordia",
+          "Short post-harvest shelf life"
+        ],
+        "likely_causes": [
+          "Humidity maintained near 100%",
+          "Surfaces of mushrooms stay wet",
+          "Poor airflow or stagnant air"
+        ],
+        "solutions": [
+          "Reduce and balance humidity according to species needs.",
+          "Avoid sustained wetness on mushroom surfaces.",
+          "Improve airflow and reduce condensation."
+        ]
+      },
+
+      "fly_and_mite_outbreaks": {
+        "symptoms": [
+          "High presence of Sciarid or Phorid flies",
+          "Damage to mycelium and fruiting bodies",
+          "Spread of mold spores"
+        ],
+        "likely_causes": [
+          "Improper hygiene",
+          "Open vector allowing entry",
+          "High humidity post-soak (wood substrates highly susceptible)"
+        ],
+        "solutions": [
+          "Use sticky traps and bug lights at entrances.",
+          "Do not use pesticides (discouraged by text).",
+          "Improve environmental hygiene and air barriers."
+        ]
+      }
+    },
+
+    "growing_room_protocols": {
+      "hygiene_practices": [
+        "Wash hands frequently or wear gloves.",
+        "Growing room staff should not mix with lab personnel.",
+        "Remove contamination once per day; handler should not return to work with clean substrates.",
+        "Daily wash-downs of ceilings, walls, and floors.",
+        "Record temp and humidity daily."
+      ],
+      "post_contamination_handling": [
+        "Treat yourself as contaminated once you have handled contaminated cultures.",
+        "Dispose of contaminated blocks at end of workday when possible.",
+        "Use non-production staff for early-day contamination disposal."
+      ]
+    }
+  }
+}

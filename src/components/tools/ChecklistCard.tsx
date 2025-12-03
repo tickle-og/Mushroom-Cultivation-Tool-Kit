@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import {
   IonButton,
   IonCard,
@@ -18,12 +18,10 @@ interface Props {
 }
 
 const ChecklistCard: React.FC<Props> = ({ template }) => {
-  const [state, setState] = useState<Record<string, boolean>>({})
-
-  useEffect(() => {
+  const [state, setState] = useState<Record<string, boolean>>(() => {
     const stored = getChecklistState()
-    setState(stored[template.id] || {})
-  }, [template.id])
+    return stored[template.id] ?? {}
+  })
 
   const handleToggle = (itemId: string) => {
     const updated = toggleChecklistItem(template.id, itemId)
